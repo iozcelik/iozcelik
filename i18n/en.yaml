@@ -4,6 +4,9 @@ toggleMenu:
 darkMode:
     other: Dark Mode
 
+subtitle:
+    other: It will blog, write a little bit
+
 list:
     page:
         one: "{{ .Count }} page"

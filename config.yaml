@@ -2,11 +2,67 @@ baseurl: https://iozcelik.github.io/iozcelik/
 languageCode: tr-tr
 theme: hugo-theme-stack
 paginate: 5
-title: İsmail Özçelik - Biraz yazınca blog olacak
+title: İsmail Özçelik
 
-# Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn
-DefaultContentLanguage: en
+DefaultContentLanguage: tr
+
+languages:
+  tr:
+     languageName: Türkçe
+     weight: 1
+     menu:
+         main:
+             - identifier: home
+               name: Anasayfa
+               url: /
+               weight: -100
+               pre: home
+
+             - identifier: about
+               name: Hakkımda
+               url: about
+               weight: -90
+               pre: user
+
+             - identifier: archives
+               name: Arşiv
+               url: archives
+               weight: -70
+               pre: archives
+
+             - identifier: search
+               name: Arama
+               url: search
+               weight: -60
+               pre: search
+  en:
+     languageName: English
+     weight: 2
+     menu:
+         main:
+             - identifier: home
+               name: Home
+               url: /
+               weight: -100
+               pre: home
+
+             - identifier: about
+               name: About
+               url: about
+               weight: -90
+               pre: user
+
+             - identifier: archives
+               name: Archives
+               url: archives
+               weight: -70
+               pre: archives
+
+             - identifier: search
+               name: Search
+               url: search
+               weight: -60
+               pre: search   
 
 permalinks:
     post: /p/:slug/
@@ -24,12 +80,12 @@ params:
         customText:
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: 16.01.1990
+        lastUpdated: 2020-12-31 13:00
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 💻
+        subtitle: Biraz yazınca blog olacak
         avatar:
             local: true
             src: img/avatar.png
@@ -65,7 +121,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: ismailozcelik
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -88,32 +144,6 @@ params:
             enabled: true
         content:
             enabled: true
-
-menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: -100
-          pre: home
-
-        - identifier: about
-          name: About
-          url: about
-          weight: -90
-          pre: user
-
-        - identifier: archives
-          name: Archives
-          url: archives
-          weight: -70
-          pre: archives
-
-        - identifier: search
-          name: Search
-          url: search
-          weight: -60
-          pre: search
 
 related:
     includeNewer: true
