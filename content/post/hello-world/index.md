@@ -1,7 +1,7 @@
 +++
 author = "Hugo Authors"
 title = "Merhaba Dünya"
-date = "2020-06-01"
+date = 2020-06-01
 description = "Hakkımda"
 tags = [
     "kişisel"
