@@ -9,6 +9,7 @@ subtitle:
 
 list:
     page:
+        one: "{{ .Count }} sayfa"
         other: "{{ .Count }} sayfa"
 
     section:
@@ -57,8 +58,3 @@ footer:
         other: Built with {{ .Generator }}
     designedBy:
         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
-
-list:
-     page:
-         one: Kategori
-         other: Kategoriler
