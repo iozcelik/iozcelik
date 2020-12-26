@@ -1,68 +1,10 @@
-baseurl: https://iozcelik.github.io/iozcelik/
+baseurl: https://iozcelik.github.io/
 languageCode: tr-tr
 theme: hugo-theme-stack
 paginate: 5
 title: İsmail Özçelik
 
 DefaultContentLanguage: tr
-
-languages:
-  tr:
-     languageName: Türkçe
-     weight: 1
-     menu:
-         main:
-             - identifier: home
-               name: Anasayfa
-               url: /
-               weight: -100
-               pre: home
-
-             - identifier: about
-               name: Hakkımda
-               url: about
-               weight: -90
-               pre: user
-
-             - identifier: archives
-               name: Arşiv
-               url: archives
-               weight: -70
-               pre: archives
-
-             - identifier: search
-               name: Arama
-               url: search
-               weight: -60
-               pre: search
-  en:
-     languageName: English
-     weight: 2
-     menu:
-         main:
-             - identifier: home
-               name: Home
-               url: /
-               weight: -100
-               pre: home
-
-             - identifier: about
-               name: About
-               url: about
-               weight: -90
-               pre: user
-
-             - identifier: archives
-               name: Archives
-               url: archives
-               weight: -70
-               pre: archives
-
-             - identifier: search
-               name: Search
-               url: search
-               weight: -60
-               pre: search   
 
 permalinks:
     post: /p/:slug/
@@ -138,6 +80,29 @@ params:
             enabled: true
         content:
             enabled: true
+
+menu:
+    main:
+        - identifier: home
+          name: Anasayfa
+          url: /
+          weight: -100
+          pre: home
+        - identifier: about
+          name: Hakkımda
+          url: about
+          weight: -90
+          pre: user
+        - identifier: archives
+          name: Arşiv
+          url: archives
+          weight: -70
+          pre: archives
+        - identifier: search
+          name: Arama
+          url: search
+          weight: -60
+          pre: search
 
 related:
     includeNewer: true
