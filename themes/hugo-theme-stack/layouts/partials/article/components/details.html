@@ -25,7 +25,7 @@
     <footer class="article-time">
         {{ partial "helper/icon" "clock" }}
         <time class="article-time--published">
-            {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+            {{- .Date.Format (or .Site.Params.dateFormat.published "02/01/2006 15:04" ) -}}
         </time>
     </footer>
     {{- end -}}
