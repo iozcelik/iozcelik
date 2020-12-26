@@ -1,6 +1,6 @@
 ---
 title : "Wordpress yerine Hugo... Taşınma tamamlanmak üzere"
-description : "Selamlar, ben İsmail Özçelik."
+description : "Blog yazılarımı uzun zamandır Wordpress ile yapmaya çalışıyorum. Aslında çok yaygın bir içerik yönetim sistemi olarak Wordpress gayet başarılı. Bir çok projede hala kullanmaya devam ediyorum. Ancak kişisel sitem konusunda şunu farkettim. Wordpress ile blog artık biraz uğraştırıcı."
 date : 2020-12-26
 slug: wordpress-yerine-hugo-tasinma-tamamlanmak-uzere
 categories:
