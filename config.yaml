@@ -1,4 +1,4 @@
-baseurl: https://iozcelik.github.io/iozcelik
+baseurl: https://iozcelik.github.io/iozcelik/
 languageCode: tr-tr
 theme: hugo-theme-stack
 paginate: 5
