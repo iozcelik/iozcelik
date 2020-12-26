@@ -9,8 +9,8 @@ subtitle:
 
 list:
     page:
-        one: "{{ .Count }} sayfa"
-        other: "{{ .Count }} sayfa"
+        one: "{{ .Count }} makale"
+        other: "{{ .Count }} makale"
 
     section:
         other: Bölüm
