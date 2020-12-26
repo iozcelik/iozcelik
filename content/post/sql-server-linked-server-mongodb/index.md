@@ -4,8 +4,10 @@ description: Sql server üzerinden linked server oluşturarak diğer ilişkisel 
 date: 2020-06-06
 slug: sql-server-uzerinden-mongodb-veritabanina-baglanmak
 categories:
-    - Test
-    - 测试
+    - Veritabani
+tags:
+    - mongodb
+    - mssql-linked-server
 ---
 
 Sql server üzerinden linked server oluşturarak diğer ilişkisel veritabanlarına sorgu atmak uzun zamandır mevcut olan bir özellik. Ancak NoSql veritabanları için ise durum o kadar kolay değildi. Aslında Microsoft Sql Server 2016 ile duyurduğu PolyBase özelliği ile Hadoop ve Azure Blob Storage için bağlantılar kurma özelliğini eklemişti. MongoDB’yi sorgulamak için ise 2019 versiyonunu beklemek gerekecekti.

@@ -1,12 +1,13 @@
-+++
-author = "Hugo Authors"
-title = "Merhaba Dünya"
-date = 2020-06-01
-description = "Hakkımda"
-tags = [
-    "kişisel"
-]
-+++
+---
+title : "Merhaba Dünya"
+description : "Selamlar, ben İsmail Özçelik."
+date : 2020-06-01
+slug: merhaba-dunya
+categories:
+    - Kisisel
+tags :
+    - kişisel
+---
 
 Selamlar, ben İsmail Özçelik.
 
