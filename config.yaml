@@ -85,7 +85,7 @@ menu:
     main:
         - identifier: home
           name: Anasayfa
-          url: /
+          url: 
           weight: -100
           pre: home
         - identifier: about
