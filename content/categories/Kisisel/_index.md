@@ -1,6 +1,6 @@
 ---
 title: "Kişisel"
-description: "This is a example category"
+description: "Kişisel yazılarım, değerlendirmeler ve konu dışı yazılar"
 slug: "kisisel"
 image: "lukas-blazek-GnvurwJsKaY-unsplash.jpg"
 style:

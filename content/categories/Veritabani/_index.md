@@ -1,6 +1,6 @@
 ---
 title: "Veritabanı"
-description: "This is a example category"
+description: "Başta MSSQL olmak üzere, PostgreSql, MySql ve MongoDb tecrübelerim"
 slug: "veritabani"
 image: "tobias-fischer-PkbZahEG2Ng-unsplash.jpg"
 style:
