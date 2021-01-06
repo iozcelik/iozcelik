@@ -3,6 +3,7 @@ languageCode: tr-tr
 theme: hugo-theme-stack
 paginate: 5
 title: İsmail Özçelik
+googleAnalytics: UA-28792812-1
 
 DefaultContentLanguage: tr
 
