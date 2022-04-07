@@ -1,5 +1,5 @@
 env:
-  githubEmail: ismailozcelik2006@gmail.com
+  githubEmail: ismail.ozcelik@hayenteknoloji.com
   deployToRepo: iozcelik
 
 name: Github Pages Astro CI
