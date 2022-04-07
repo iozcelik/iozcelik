@@ -1,8 +1,4 @@
-env:
-  githubEmail: ismail.ozcelik@hayenteknoloji.com
-  deployToRepo: iozcelik
-
-name: Github Pages Astro CI
+name: github pages
 
 on:
   push:
@@ -24,14 +20,9 @@ jobs:
         run: |
           npm run build
           touch ./dist/.nojekyll
-      - name: Push to pages repo
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          source-directory: 'dist'
-          destination-github-username: ${{ github.actor }}
-          destination-repository-name: ${{ env.deployToRepo }}
-          user-email: ${{ env.githubEmail }}
-          commit-message: Deploy ORIGIN_COMMIT
-          target-branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
