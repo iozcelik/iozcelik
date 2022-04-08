@@ -3,6 +3,9 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
+  build: {
+    format: 'file'
+  },
   markdown: {
     shikiConfig: {
       theme: 'nord',
