@@ -29,7 +29,7 @@ const { pageTitle } = Astro.props;
       </div>
       <div class="drawer-side">
         <label for="my-drawer" class="drawer-overlay"></label>
-        <div class="overflow-y-auto flex lg:justify-end sm:w-[30vw]">
+        <div class="overflow-y-auto flex lg:justify-end w-fit sm:w-[30vw]">
           <div class="w-fit p-3 lg:m-6 bg-base-100">
             {Config.siteImagePath && <SiteImage />}
             <h1 class="text-2xl p-2 pl-4"><a href="/">{Config.siteTitle}</a></h1>
